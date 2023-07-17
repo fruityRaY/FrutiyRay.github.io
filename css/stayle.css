@@ -134,6 +134,16 @@ body{
 	border-left: 2px double #666;
 	border-top: 1px double #333;
 }
+.menu2{
+	background:RGBA(10,120,10,0.9);
+	justify-content: center;
+	
+}
+.menu2 Img{
+	width:26%;
+	height:100%;
+	margin-left: 45%;
+}
 .menu a{
 	text-shadow: 2px 2px #333;
 	padding-right: 12px;
