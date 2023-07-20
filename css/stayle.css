@@ -283,7 +283,7 @@ body{
 .item{
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-around;
 	width:100%;
 	height:100%;
 	background:RGBA(10,10,10,0.4);
@@ -299,15 +299,34 @@ body{
 	overflow: auto;
 	color:#fca;
 }
-p{
+.ItemTextC{
 	font-size:24px;
+	background:RGBA(10,10,10,0.4);
+	border-radius: 8px 8px 8px 8px;
+	border-bottom: 3px double #555;
+	border-left: 2px double #666;
+	border-top: 1px double #333;
 	text-align: center;
 }
-H1{
-	font-size:48px;
-}
-H1{
+.ItemTextB{
 	font-size:36px;
+	background:RGBA(10,10,10,0.4);
+	border-radius: 8px 8px 8px 8px;
+	border-bottom: 3px double #555;
+	border-left: 2px double #666;
+	border-top: 1px double #333;
+	text-align: center;
+}
+
+.ItemTextA{
+	font-size:36px;
+	background:RGBA(10,10,10,0.4);
+	border-radius: 8px 8px 8px 8px;
+	border-bottom: 3px double #555;
+	border-left: 2px double #666;
+	border-top: 1px double #333;
+	text-align: center;
+	
 }
 .ImgA{
 	margin-top: 15px;
@@ -318,6 +337,19 @@ H1{
 	
 }
 .ImgA img{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+.ImgAB{
+	margin-top: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+	width:45%;height:45%;
+	object-fit:cover;
+	
+}
+.ImgAB img{
 	width: 100%;
 	height: 100%;
 	object-fit: contain;
