@@ -89,6 +89,7 @@ body{
 	justify-content: space-between;
 	align-items: center;
 	align-content: center;
+	text-align: center;
 	padding-top: 8px;
 	padding-bottom:8px;
 	background:RGBA(10,10,10,0.4);
@@ -97,6 +98,7 @@ body{
 	background:RGBA(10,10,10,0.4);
 	padding-top: 2px;
 	padding-bottom:2px;
+	text-align: center;
 	border-radius: 0px 8px 8px 0px;
 	border-bottom: 3px double #555;
 	border-right: 2px double #444;
@@ -107,6 +109,7 @@ body{
 	text-shadow: 2px 2px #333;
 	padding-left: 12px;
 	padding-right: 12px;
+	text-align: center;
 	animation: gradient 24s infinite alternate-reverse;
 
 }
@@ -301,40 +304,34 @@ body{
 }
 .ItemTextC{
 	font-size:24px;
-	background:RGBA(10,10,10,0.4);
-	border-radius: 8px 8px 8px 8px;
-	border-bottom: 3px double #555;
-	border-left: 2px double #666;
-	border-top: 1px double #333;
+	
+	
 	text-align: center;
 }
 .ItemTextB{
 	font-size:36px;
-	background:RGBA(10,10,10,0.4);
-	border-radius: 8px 8px 8px 8px;
-	border-bottom: 3px double #555;
-	border-left: 2px double #666;
-	border-top: 1px double #333;
+	
+	
 	text-align: center;
 }
 
 .ItemTextA{
 	font-size:36px;
-	background:RGBA(10,10,10,0.4);
-	border-radius: 8px 8px 8px 8px;
-	border-bottom: 3px double #555;
-	border-left: 2px double #666;
-	border-top: 1px double #333;
+	
+	
 	text-align: center;
 	
 }
 .ImgA{
 	margin-top: 15px;
-	margin-left: 10px;
-	margin-right: 10px;
-	width:33%;height:35%;
+	margin-left: 5px;
+	margin-right: 5px;
+	width:45%;height:35%;
 	object-fit:cover;
-	
+	border-bottom: 3px double #555;
+	border-left: 2px double #666;
+	border-top: 1px double #333;
+	border-radius: 8px 8px 8px 8px;
 }
 .ImgA img{
 	width: 100%;
@@ -347,6 +344,10 @@ body{
 	margin-right: 10px;
 	width:45%;height:45%;
 	object-fit:cover;
+	border-bottom: 3px double #555;
+	border-left: 2px double #666;
+	border-top: 1px double #333;
+	border-radius: 8px 8px 8px 8px;
 	
 }
 .ImgAB img{
@@ -508,30 +509,21 @@ body{
 	}
 	.ItemTextC{
 	font-size:22px;
-	background:RGBA(10,10,10,0.4);
-	border-radius: 8px 8px 8px 8px;
-	border-bottom: 3px double #555;
-	border-left: 2px double #666;
-	border-top: 1px double #333;
+	
+	
 	text-align: center;
 }
 	.ItemTextB{
 	font-size:24px;
-	background:RGBA(10,10,10,0.4);
-	border-radius: 8px 8px 8px 8px;
-	border-bottom: 3px double #555;
-	border-left: 2px double #666;
-	border-top: 1px double #333;
+	
+	
 	text-align: center;
 }
 
 	.ItemTextA{
 	font-size:28px;
-	background:RGBA(10,10,10,0.4);
-	border-radius: 8px 8px 8px 8px;
-	border-bottom: 3px double #555;
-	border-left: 2px double #666;
-	border-top: 1px double #333;
+	
+	
 	text-align: center;
 	
 	}
@@ -669,9 +661,10 @@ body{
 	justify-content: space-between;
 	}
 	.ImgA{
-	margin-top: 6px;
+	margin-top: 3px;
 	margin-left: 3px;
 	margin-right: 3px;
+	margin-bottom: 3px;
 	width:45%;
 	height: 115px;
 	
@@ -683,9 +676,10 @@ body{
 	object-fit: contain;
 	}
 	.ImgAB{
-	margin-top: 15px;
+	margin-top: 12px;
 	margin-left: 10px;
 	margin-right: 10px;
+	margin-bottom: 3px;
 	width:47%;height:40%;
 	object-fit:cover;
 	
@@ -697,30 +691,21 @@ body{
 	}
 	.ItemTextC{
 	font-size:22px;
-	background:RGBA(10,10,10,0.4);
-	border-radius: 8px 8px 8px 8px;
-	border-bottom: 3px double #555;
-	border-left: 2px double #666;
-	border-top: 1px double #333;
+	
+	
 	text-align: center;
 }
 	.ItemTextB{
 	font-size:24px;
-	background:RGBA(10,10,10,0.4);
-	border-radius: 8px 8px 8px 8px;
-	border-bottom: 3px double #555;
-	border-left: 2px double #666;
-	border-top: 1px double #333;
+	
+	
 	text-align: center;
 }
 
 	.ItemTextA{
 	font-size:28px;
-	background:RGBA(10,10,10,0.4);
-	border-radius: 8px 8px 8px 8px;
-	border-bottom: 3px double #555;
-	border-left: 2px double #666;
-	border-top: 1px double #333;
+	
+	
 	text-align: center;
 	
 	}
@@ -887,30 +872,21 @@ body{
 	}
 	.ItemTextC{
 	font-size:18px;
-	background:RGBA(10,10,10,0.4);
-	border-radius: 8px 8px 8px 8px;
-	border-bottom: 3px double #555;
-	border-left: 2px double #666;
-	border-top: 1px double #333;
+	
+	
 	text-align: center;
 }
 	.ItemTextB{
 	font-size:20px;
-	background:RGBA(10,10,10,0.4);
-	border-radius: 8px 8px 8px 8px;
-	border-bottom: 3px double #555;
-	border-left: 2px double #666;
-	border-top: 1px double #333;
+	
+	
 	text-align: center;
 }
 
 	.ItemTextA{
 	font-size:22px;
-	background:RGBA(10,10,10,0.4);
-	border-radius: 8px 8px 8px 8px;
-	border-bottom: 3px double #555;
-	border-left: 2px double #666;
-	border-top: 1px double #333;
+	
+	
 	text-align: center;
 	
 	}
